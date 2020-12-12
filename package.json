@@ -5,12 +5,9 @@
   "license": "MIT",
   "author": "Anteneh Aklilu (https://github.com/aaklilu)",
   "workspaces": [
-    "api",
-    "db",
+    "src",
     "env",
-    "proxy",
-    "scripts",
-    "web"
+    "scripts"
   ],
   "scripts": {
     "setup": "node ./setup",
