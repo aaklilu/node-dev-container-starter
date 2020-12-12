@@ -14,7 +14,15 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint",
-		"mgmcdermott.vscode-language-babel"
+		"mgmcdermott.vscode-language-babel",
+    		"arcanis.vscode-zipfs",
+	    	"eamodio.gitlens",
+	    	"editorconfig.editorconfig",
+	    	"esbenp.prettier-vscode",
+	    	"mikestead.dotenv",
+	    	"mquandalle.graphql",
+	    	"orta.vscode-jest",
+	    	"streetsidesoftware.code-spell-checker"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
