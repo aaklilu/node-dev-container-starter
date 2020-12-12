@@ -1,1 +1,1 @@
-# node-dev-container-starter
+# Microservice API starter for Node.js
