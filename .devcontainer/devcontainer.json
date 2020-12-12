@@ -1,3 +1,5 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/javascript-node
 {
 	"name": "Node.js",
 	"build": {
@@ -26,10 +28,10 @@
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [3000],
+	//"forwardPorts": [3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	//"postCreateCommand": "yarn install",
+	"postCreateCommand": "yarn install",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
